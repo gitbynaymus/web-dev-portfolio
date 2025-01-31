@@ -173,6 +173,8 @@
       .skills-container,
       .resume-container,
       footer,
+      nav,
+      nav>ul,
       .about-items{
           flex-direction: column;
           padding: 30px;
@@ -195,4 +197,21 @@
       .about{
           padding: 20px;
       }
+      .banner-profile-pic{
+        width: 100%;
+      }
+      .banner{
+        flex-direction: column;
+        margin: 5px;
+      }
+      .header{
+        background-image: none;
+      }
+      nav>ul{
+        gap: 20px;
+      }
+      .btn-primary{
+        margin-bottom: 20px;
+      }
+      
   }
